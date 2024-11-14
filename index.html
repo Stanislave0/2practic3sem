@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Find your home</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <nav class="navbar navbar-expand-md bg-body-dark" style="width: 100%;">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+            <button class="btn btn-custom d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menu</button>
+
+            <div class="offcanvas offcanvas-end align-items-center fs-5" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header w-100">
+                    <h3 class="offcanvas-title" id="offcanvasRightLabel"><b>Menu</b></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto letter-spacing align-items-center fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sign-in.html">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <div class="d-flex">
+                    <a class="d-flex align-items-center" href="#"><img class="me-4" src="img/user.svg" alt=""></a>
+                    <button type="button" class="btn btn-custom letter-spacing fs-5"><a style="color: inherit; text-decoration: none;" href="sign-up.html">Sign up</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container d-block d-md-flex mt-5">
+        <div class="pt-5">
+            <h1 class="fw-bold mb-5" style="font-size: 60px;font-family: Montserrat bold;">Find Your Dream Home</h1>
+            <p class="fw-bold mb-5">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
+            <button type="button" class="btn btn-custom letter-spacing fs-5 px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign up</button>
+        </div>
+        <div>
+            <img class="w-100" src="img/hero image 1.png" alt="">
+        </div>
+    </div>
+    <div class="container d-block d-md-flex gap-5 mt-5" style="margin-top: 150px !important;">
+        <div class="w-100 mb-4">
+            <img class="w-100" src="img/Mask group.png" alt="">
+        </div>
+        <div>
+            <h2 class="fw-bold" style="font-family: Montserrat bold; font-size: 40px;">We Help You To Find Your Dream Home</h2>
+            <p class="fw-bold">From cozy cottages to luxurious estates, our dedicated team guides you through every step of the journey, ensuring your dream home becomes a reality</p>
+            <div class="d-flex justify-content-between" style="color: #4F3527;">
+                <div>
+                    <h2 class="fw-bold" style="font-family: Montserrat bold;">8K+</h2>
+                    <p class="fw-bold">Houses Available</p>
+                </div>
+                <div>
+                    <h2 class="fw-bold" style="font-family: Montserrat bold;">6K+</h2>
+                    <p class="fw-bold">Houses Sold</p>
+                </div>
+                <div>
+                    <h2 class="fw-bold" style="font-family: Montserrat bold;">2K+</h2>
+                    <p class="fw-bold">Trusted Agents</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" style="margin-top: 150px !important;">
+        <h2 class="fw-bold text-center" style="font-family: Montserrat bold; font-size: 40px;">Why Choose Us</h2>
+        <p class="fw-bold text-center mb-5 mt-3" style="color: #4F3527;">Elevating Your Home Buying Experience with Expertise, Integrity, and Unmatched Personalized Service</p>
+        <div class="row row-gap-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+            <div class="px-2">
+                <div class="col col-background p-4 rounded-4 h-100">
+                    <div class="col-img-background p-3 d-inline-block rounded-3"><img src="img/point.svg" alt=""></div>
+                    <h4 class="fw-bold my-4" style="font-family: Montserrat bold;">Expert Guidance</h4>
+                    <p class="fw-bold">Benefit from our team's seasoned expertise for a smooth buying experience</p>
+                </div>
+            </div>
+            <div class="px-2">
+                <div class="col col-background p-4 rounded-4 h-100">
+                    <div class="col-img-background p-3 d-inline-block rounded-3"><img src="img/Clip path group.svg" alt=""></div>
+                    <h4 class="fw-bold my-4" style="font-family: Montserrat bold;">Personalized Service</h4>
+                    <p class="fw-bold">Our services adapt to your unique needs, making your journey stress-free</p>
+                </div>
+            </div>
+            <div class="px-2">
+                <div class="col col-background p-4 rounded-4 h-100">
+                    <div class="col-img-background p-3 d-inline-block rounded-3"><img src="img/document.svg" alt=""></div>
+                    <h4 class="fw-bold my-4" style="font-family: Montserrat bold;">Transparent Process</h4>
+                    <p class="fw-bold">Stay informed with our clear and honest approach to buying your home</p>
+                </div>
+            </div>
+            <div class="px-2">
+                <div class="col col-background p-4 rounded-4 h-100">
+                    <div class="col-img-background p-3 d-inline-block rounded-3"><img src="img/handshake.svg" alt=""></div>
+                    <h4 class="fw-bold my-4" style="font-family: Montserrat bold;">Exceptional Support</h4>
+                    <p class="fw-bold">Providing peace of mind with our responsive and attentive customer service</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" style="margin-top: 150px !important;">
+        <h2 class="fw-bold text-center my-5" style="font-family: Montserrat bold;">Our Popular Residences</h2>
+        <div class="row row-gap-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="px-4">
+                <div class="col col-background rounded-4">
+                    <img class="w-100 rounded-top-4" src="img/Group 11.png" alt="">
+                    <div class="p-4">
+                        <div class="d-flex align-items-center">
+                            <img src="img/location.svg" alt="">
+                            <h4 class="fw-bold mb-0 ms-2" style="font-family: Montserrat bold;">San Francisco, California</h4>
+                        </div>
+                        <div class="d-flex gap-4 mt-3">
+                            <div class="d-flex"><img src="img/rooms.svg" alt=""><p class="fw-bold mb-0">4 rooms</p></div>
+                            <div class="d-flex"><img src="img/size.svg" alt=""><p class="fw-bold mb-0">3,500 sq ft</p></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <button type="button" class="btn btn-custom letter-spacing fs-5 px-3">Sign up</button>
+                            <h4 class="fw-bold mb-0 ms-2" style="font-family: Montserrat bold;">$2,500,000</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-4">
+                <div class="col col-background rounded-4">
+                    <img class="w-100 rounded-top-4" src="img/Group 12.png" alt="">
+                    <div class="p-4">
+                        <div class="d-flex align-items-center">
+                            <img src="img/location.svg" alt="">
+                            <h4 class="fw-bold mb-0 ms-2" style="font-family: Montserrat bold;">Beverly Hills, California</h4>
+                        </div>
+                        <div class="d-flex gap-4 mt-3">
+                            <div class="d-flex"><img src="img/rooms.svg" alt=""><p class="fw-bold mb-0">3 rooms</p></div>
+                            <div class="d-flex"><img src="img/size.svg" alt=""><p class="fw-bold mb-0">1,500 sq ft</p></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <button type="button" class="btn btn-custom letter-spacing fs-5 px-3">Sign up</button>
+                            <h4 class="fw-bold mb-0 ms-2" style="font-family: Montserrat bold;">$850,000</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-4">
+                <div class="col col-background rounded-4">
+                    <img class="w-100 rounded-top-4" src="img/Group 13.png" alt="">
+                    <div class="p-4">
+                        <div class="d-flex align-items-center">
+                            <img src="img/location.svg" alt="">
+                            <h4 class="fw-bold mb-0 ms-2" style="font-family: Montserrat bold;">Palo Alto, California</h4>
+                        </div>
+                        <div class="d-flex gap-4 mt-3">
+                            <div class="d-flex"><img src="img/rooms.svg" alt=""><p class="fw-bold mb-0">6 rooms</p></div>
+                            <div class="d-flex"><img src="img/size.svg" alt=""><p class="fw-bold mb-0">4,000 sq ft</p></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <button type="button" class="btn btn-custom letter-spacing fs-5 px-3">Sign up</button>
+                            <h4 class="fw-bold mb-0 ms-2" style="font-family: Montserrat bold;">$3,700,000</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2 class="fw-bold text-center my-5" style="font-family: Montserrat bold; margin-top: 150px !important;">What People Say About Dwello</h2>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row row-gap-4 row-cols-1 row-cols-lg-3 justify-content-center">
+                    <div class="px-4">
+                        <div class="col col-background rounded-4">
+                            <img class="w-100 rounded-top-4" src="img/Group 15.png" alt="">
+                            <div class="p-4">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex gap-2">
+                                        <img src="img/otzv1.png" alt="" width="58px" height="58px">
+                                        <div>
+                                            <h4 class="fw-bold">Sarah Nguyen</h4>
+                                            <p>San Francisco</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex rounded-3 p-2 align-items-center" style="background-color: #fff;">
+                                            <img src="img/Star 1.svg" alt="" height="20px" width="20px">
+                                            <p class="fw-bold mb-0 ms-2">5.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="fw-bold">Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4">
+                        <div class="col col-background rounded-4">
+                            <img class="w-100 rounded-top-4" src="img/Group 16.png" alt="">
+                            <div class="p-4">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex gap-2">
+                                        <img src="img/otzv2.png" alt="" width="58px" height="58px">
+                                        <div>
+                                            <h4 class="fw-bold">Michael Rodri</h4>
+                                            <p>San Diego</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex rounded-3 p-2 align-items-center" style="background-color: #fff;">
+                                            <img src="img/Star 1.svg" alt="" height="20px" width="20px">
+                                            <p class="fw-bold mb-0 ms-2">5.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="fw-bold">I had a fantastic experience working with Dwello. Their expertise and personalized service exceeded my expectations. I found my dream home quickly and smoothly. Highly recommended!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4">
+                        <div class="col col-background rounded-4">
+                            <img class="w-100 rounded-top-4" src="img/Group 17.png" alt="">
+                            <div class="p-4">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex gap-2">
+                                        <img src="img/otzv3.png" alt="" width="58px" height="58px">
+                                        <div>
+                                            <h4 class="fw-bold">Emily Johnson</h4>
+                                            <p>Los Angeles</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex rounded-3 p-2 align-items-center" style="background-color: #fff;">
+                                            <img src="img/Star 1.svg" alt="" height="20px" width="20px">
+                                            <p class="fw-bold mb-0 ms-2">5.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="fw-bold">Dwello made my dream of owning a home a reality! Their team provided exceptional support and guided me through every step of the process. I couldn't be happier with my new home!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row row-gap-4 row-cols-1 row-cols-lg-3 justify-content-center">
+                    <div class="px-4">
+                        <div class="col col-background rounded-4">
+                            <img class="w-100 rounded-top-4" src="img/Group 15.png" alt="">
+                            <div class="p-4">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex gap-2">
+                                        <img src="img/otzv1.png" alt="" width="58px" height="58px">
+                                        <div>
+                                            <h4 class="fw-bold">Sarah Nguyen</h4>
+                                            <p>San Francisco</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex rounded-3 p-2 align-items-center" style="background-color: #fff;">
+                                            <img src="img/Star 1.svg" alt="" height="20px" width="20px">
+                                            <p class="fw-bold mb-0 ms-2">5.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="fw-bold">Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4">
+                        <div class="col col-background rounded-4">
+                            <img class="w-100 rounded-top-4" src="img/Group 17.png" alt="">
+                            <div class="p-4">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex gap-2">
+                                        <img src="img/otzv3.png" alt="" width="58px" height="58px">
+                                        <div>
+                                            <h4 class="fw-bold">Emily Johnson</h4>
+                                            <p>Los Angeles</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex rounded-3 p-2 align-items-center" style="background-color: #fff;">
+                                            <img src="img/Star 1.svg" alt="" height="20px" width="20px">
+                                            <p class="fw-bold mb-0 ms-2">5.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="fw-bold">Dwello made my dream of owning a home a reality! Their team provided exceptional support and guided me through every step of the process. I couldn't be happier with my new home!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4">
+                        <div class="col col-background rounded-4">
+                            <img class="w-100 rounded-top-4" src="img/Group 16.png" alt="">
+                            <div class="p-4">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex gap-2">
+                                        <img src="img/otzv2.png" alt="" width="58px" height="58px">
+                                        <div>
+                                            <h4 class="fw-bold">Michael Rodri</h4>
+                                            <p>San Diego</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="d-flex rounded-3 p-2 align-items-center" style="background-color: #fff;">
+                                            <img src="img/Star 1.svg" alt="" height="20px" width="20px">
+                                            <p class="fw-bold mb-0 ms-2">5.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="fw-bold">I had a fantastic experience working with Dwello. Their expertise and personalized service exceeded my expectations. I found my dream home quickly and smoothly. Highly recommended!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center gap-4 mt-4">
+                <button class="carousel-prev rounded-circle p-2" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon align-items-center" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-next rounded-circle" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon align-items-center" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+        <h2 class="fw-bold text-center my-5" style="font-family: Montserrat bold; margin-top: 150px !important;">Do You Have Any Questions?<br> Get Help From Us</h2>
+        <div class="d-flex justify-content-center">
+            <form class="d-md-inline-flex gap-4 justify-content-center custom-form w-100">
+                <div class="d-inline-block">
+                  <input type="email" class="form-control mb-4" id="validationDefault01" required placeholder="Enter your email address...">
+                </div>
+                <div class="d-inline-block">
+                  <button class="btn btn-custom" type="submit">Submit form</button>
+                </div>
+              </form>
+        </div>
+    </div>
+    <footer class="col-background p-5" style="margin-top: 150px !important;">
+        <div class="container">
+            <div class="d-xl-flex justify-content-between gap-4">
+                <div><img src="img/logo.svg" alt=""><p class="mt-4 fw-bold">Bringing you closer to your dream home, one click at a time.</p></div>
+                <div class="d-flex flex-wrap flex-md-nowrap gap-5 w-100 justify-content-xl-end">
+                    <div>
+                        <h4 class="fw-bold mb-4">About</h4>
+                        <p class="fw-bold mb-4"><a href="#">Our Story</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Careers</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Our Team</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Resources</a></p>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-4">Support</h4>
+                        <p class="fw-bold mb-4"><a href="#">FAQ</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Contact Us</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Help Center</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Terms of Service</a></p>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-4">Find Us</h4>
+                        <p class="fw-bold mb-4"><a href="#">Events</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Locations</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Newsletter</a></p>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-4">Our Social</h4>
+                        <div class="d-flex mb-3">
+                            <a class="d-flex align-items-center" href="#">
+                                <img src="img/instagram.svg" alt="">
+                                <p class="fw-bold mb-0">Instagram</p>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a class="d-flex align-items-center" href="#">
+                                <img src="img/facebook.svg" alt="">
+                                <p class="fw-bold mb-0">Facebook</p>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a class="d-flex align-items-center" href="#">
+                                <img src="img/twitterx.svg" alt="">
+                                <p class="fw-bold mb-0">Twitter (x)</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

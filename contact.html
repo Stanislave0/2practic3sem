@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-body-dark" style="width: 100%;">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+            <button class="btn btn-custom d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menu</button>
+
+            <div class="offcanvas offcanvas-end align-items-center fs-5" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header w-100">
+                    <h3 class="offcanvas-title" id="offcanvasRightLabel"><b>Menu</b></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto letter-spacing align-items-center fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sign-in.html">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <div class="d-flex">
+                    <a class="d-flex align-items-center" href="#"><img class="me-4" src="img/user.svg" alt=""></a>
+                    <button type="button" class="btn btn-custom letter-spacing fs-5"><a style="color: inherit; text-decoration: none;" href="sign-up.html">Sign up</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2 class="fw-bold text-center my-5" style="font-family: Montserrat bold; margin-top: 150px !important;">Do You Have Any Questions?<br> Get Help From Us</h2>
+        <div class="d-flex justify-content-center">
+            <form class="d-md-inline-flex flex-column justify-content-center custom-form w-100">
+                <div class="d-inline-block">
+                    <input type="text" class="form-control mb-4" id="validationDefault01" required placeholder="Enter your first name...">
+                </div>
+                <div class="d-inline-block">
+                    <input type="text" class="form-control mb-4" id="validationDefault02" required placeholder="Enter your last name...">
+                </div>
+                <div class="d-inline-block">
+                  <input type="email" class="form-control mb-4" id="validationDefault03" required placeholder="Enter your email address...">
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-custom" type="submit">Submit form</button>
+                </div>
+              </form>
+        </div>
+        <h2 class="fw-bold text-center my-5" style="font-family: Montserrat bold;">Or call us</h2>
+        <div class="d-flex justify-content-center">
+            <h2 class="rounded-4 p-3 d-inline-flex text-center my-5 col-background" style="font-family: Montserrat bold;">+8 (900) 999 888</h2>
+        </div>
+    </div>
+    <footer class="col-background p-5" style="margin-top: 150px !important;">
+        <div class="container">
+            <div class="d-xl-flex justify-content-between gap-4">
+                <div><img src="img/logo.svg" alt=""><p class="mt-4 fw-bold">Bringing you closer to your dream home, one click at a time.</p></div>
+                <div class="d-flex flex-wrap flex-md-nowrap gap-5 w-100 justify-content-xl-end">
+                    <div>
+                        <h4 class="fw-bold mb-4">About</h4>
+                        <p class="fw-bold mb-4"><a href="#">Our Story</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Careers</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Our Team</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Resources</a></p>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-4">Support</h4>
+                        <p class="fw-bold mb-4"><a href="#">FAQ</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Contact Us</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Help Center</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Terms of Service</a></p>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-4">Find Us</h4>
+                        <p class="fw-bold mb-4"><a href="#">Events</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Locations</a></p>
+                        <p class="fw-bold mb-4"><a href="#">Newsletter</a></p>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-4">Our Social</h4>
+                        <div class="d-flex mb-3">
+                            <a class="d-flex align-items-center" href="#">
+                                <img src="img/instagram.svg" alt="">
+                                <p class="fw-bold mb-0">Instagram</p>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a class="d-flex align-items-center" href="#">
+                                <img src="img/facebook.svg" alt="">
+                                <p class="fw-bold mb-0">Facebook</p>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a class="d-flex align-items-center" href="#">
+                                <img src="img/twitterx.svg" alt="">
+                                <p class="fw-bold mb-0">Twitter (x)</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
